@@ -1,0 +1,25 @@
+words = [
+    "ashok"
+    "pavan"
+    "shiva"
+    "rakesh"
+    "arafath"
+    "sai nadh"
+    "bella"
+    "ajaygoud"
+    "ramya"
+    "navya"
+    "kavya"
+    "divya"
+    "charan"
+    "sanvika"
+    "mokshi"
+    "rahul"
+    "nageshvari"
+    "arif"
+    "poojitha"
+    "vineeth"
+    "venkat"
+
+
+]
