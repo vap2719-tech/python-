@@ -60,19 +60,34 @@
 
 
 
-def my_decorator(func):
-    def wrapper(*args, **kwargs):
-        print("Something is happening before the function is called.")
-        result = func(*args, **kwargs)  # Call the original function
-        print("Something is happening after the function is called.")
-        return result
-    return wrapper
+#def my_decorator(func):
+#    def wrapper(*args, **kwargs):
+ ##      result = func(*args, **kwargs)  # Call the original function
+   #     print("Something is happening after the function is called.")
+    #    return result
+    #return wrapper
 
-@my_decorator
-def say_hello(name):
-    print(f"Hello, {name}!")
-    return f"Greeting for {name}"
+#@my_decorator
+#def say_hello(name):
+ #   print(f"Hello, {name}!")
+  #  return f"Greeting for {name}"
 
 # Calling the decorated function
-message = say_hello("Alice")
-print(f"Function returned: {message}")
+#message = say_hello("Alice")
+#print(f"Function returned: {message}")
+
+
+
+# another example
+def frist_function(func):
+  def wrapper():
+    print("befour the function").upper()
+    func()
+    print("after the fuction").upper()
+  print (wrapper)
+
+
+@frist_function
+def my_function():
+  return "hello all"
+print(my_function)
